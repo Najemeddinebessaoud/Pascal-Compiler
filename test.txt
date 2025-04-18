@@ -1,0 +1,10 @@
+program test;
+var x,y:int;
+Begin 
+x:=3;
+readln(y);
+if x<y then x:=x+y*5 Endif;
+
+writeln(x);
+writeln(y);
+End.
